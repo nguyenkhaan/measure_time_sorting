@@ -49,3 +49,5 @@ Ta muốn sinh dữ liệu cho *randomized data* thì tiến hành chạy file g
 
 Muốn sinh dữ liệu cho *sorted data* thì chạy file gen2.cpp bằng lệnh **./gen2.cpp**
 ```
+
+🧰 Trong trường hợp chạy không dược. Thử xóa tất cả các file chương trình (.exe nếu có cái đuôi này, k thì xóa mấy file k có duôi ấy). Rồi compile lại bằng tay
