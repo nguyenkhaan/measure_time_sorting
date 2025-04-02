@@ -1,10 +1,11 @@
 # 💻 ĐO THỜI GIAN THUẬT TOÁN 💻
 ## ⏰ 1. Tổng quan chương trình 
-Cấu trúc file được chia làm 3 nơi: 
+
+✍️ Cấu trúc file được chia làm 3 thư mục + 1 file dữ liệu: 
 1. **algo**: Thư mục chứa các file chương trình: selection_sort.cpp, insertion_sort.cpp, qsort.cpp, merge_sort.cpp 
 2. **gen**: Thư mục chứa các chương trình sinh test 
 3. **output**: Thư mục chứa kết quả của từng file sinh test 
-4. **input.txt**: Nơi ghi dữ liệu cho input sinh ra từ các file gen. 
+4. **input.inp**: File dữ lieuj - nơi ghi dữ liệu cho input sinh ra từ các file gen. 
 
 ## ⏰ 2. Cách thức hoạt động 
 Các file **gen.cpp** được đánh số thứ tự từ 1 - 4. Tương ưng với đặc điểm của từng bộ test cases. Mỗi file **gen.cpp** sẽ tồn tại 1 file **output.out** tương ứng trong thư mục `output` 
