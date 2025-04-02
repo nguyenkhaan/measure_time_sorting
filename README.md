@@ -1,20 +1,20 @@
-# ĐO THỜI GIAN THUẬT TOÁN 
-## 1. Tổng quan chương trình 
+# 💻 ĐO THỜI GIAN THUẬT TOÁN 💻
+## ⏰ 1. Tổng quan chương trình 
 Cấu trúc file được chia làm 3 nơi: 
 1. **algo**: Thư mục chứa các file chương trình: selection_sort.cpp, insertion_sort.cpp, qsort.cpp, merge_sort.cpp 
 2. **gen**: Thư mục chứa các chương trình sinh test 
 3. **output**: Thư mục chứa kết quả của từng file sinh test 
 4. **input.txt**: Nơi ghi dữ liệu cho input sinh ra từ các file gen. 
 
-## 2. Cách thức hoạt động 
+## ⏰ 2. Cách thức hoạt động 
 Các file **gen.cpp** được đánh số thứ tự từ 1 - 4. Tương ưng với đặc điểm của từng bộ test cases. Mỗi file **gen.cpp** sẽ tồn tại 1 file **output.out** tương ứng trong thư mục `output` 
 
--  `1`: Các phần tử test case được sắp xếp ngẫu nhiên (**Randomized data**) -> `output1.out`
--  `2`: Các phần tử test case được sắp xếp tăng dần (**Sorted data**) -> `output2.out`
--  `3`: Các phần tử test case được sắp xếp giảm dần (**Reverse Sorted data**) -> `output3.out`
--  `4`: Các phần tử test case được sắp xếp tăng dần ở nửa đầu, ngẫu nhiên ở nửa sau (**Nearly sorted data**) -> `output4.out`
+-  👍`1`: Các phần tử test case được sắp xếp ngẫu nhiên (**Randomized data**) -> `output1.out`
+-  👍 `2`: Các phần tử test case được sắp xếp tăng dần (**Sorted data**) -> `output2.out`
+-  👍 `3`: Các phần tử test case được sắp xếp giảm dần (**Reverse Sorted data**) -> `output3.out`
+-  👍 `4`: Các phần tử test case được sắp xếp tăng dần ở nửa đầu, ngẫu nhiên ở nửa sau (**Nearly sorted data**) -> `output4.out`
 
-**Sơ đồ hoạt động:**
+🗺️ **Sơ đồ hoạt động:**
 
 1. Giả sử 1 file gen được khởi động. Sinh các `test case` tương ứng vào file `input.txt` 
 2. File `gen` gọi các chương trình trong thư mục `algo` (gọi tăt là thuật toán)  
@@ -36,8 +36,8 @@ thời gian để đo thời gian chạy của từng thuật toán.
 Cuối cùng, kết quả được ghi ra file output1.out (file output tương ứng với gen1.cpp)
 ```
 
-## 3. Cách sử dụng project 
-Chạy lệnh `./gen[number].cpp`. Kiểm tra dữ liệu in ra tại file `output[number].out` tương ứng. 
+## ⏰ 3. Cách sử dụng project 
+🧰 Chạy lệnh `./gen[number].cpp`. Kiểm tra dữ liệu in ra tại file `output[number].out` tương ứng. 
 
 >Trong đó, number là số hiệu của file gen đã nêu trong phần 2 (number = 1,2,3 or 4)
 
